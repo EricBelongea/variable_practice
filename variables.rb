@@ -1,5 +1,5 @@
 name = "Eric"
-last_name = "Belongea"
+last_name = "Bologna"
 age = 26
 dob = 1997
 height = 6.2
@@ -15,4 +15,5 @@ puts age
 puts dob
 puts funny
 
-puts "Hello world, my name is " + name
+# Concatenation & Interpolation
+puts "Hello world, my name is " + name + " I am #{age} years old"
